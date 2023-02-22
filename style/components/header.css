@@ -1,0 +1,124 @@
+.header{
+    padding: 20px 5%;
+}
+
+.hero{
+    background: linear-gradient(rgb(255 255 255 / 76%), rgb(255 255 255 / 63%)), url(../../img/back_body1.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.content-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-type h2{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: #f85a40;
+    text-transform: uppercase;
+    font-family: "Poppins-light";
+    letter-spacing: 5px;
+}
+
+.content-type span{
+    color: #f85a40;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 55px;
+}
+
+
+.hero h3{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Poppins-light";
+}
+
+.hero p{
+    color: rgb(92 92 92 / 80%);
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Poppins-light";
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.hero button{
+    font-family: "Poppins-Regular";
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #f85a40;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid #dedede;
+    text-decoration: none;
+}
+
+.hero button:hover{
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.button-wrapper div{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    color: #f85a40;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.button-wrapper i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f85a40;
+    width: 40px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.button-wrapper div:hover{
+    cursor: pointer;
+}
+
+.button-wrapper i:hover{
+    color: #fff;
+}
+
+@media(max-width:800px){
+    .hero h2{
+        font-size: 45px;
+    }
+    .hero h3{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:600px){
+    .hero{
+        width: 100%;
+    }
+}
+
+

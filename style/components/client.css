@@ -1,0 +1,40 @@
+.client{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.client-item{
+    width: 120px;
+    text-align: center;
+}
+
+.client-item img{
+    margin-top: 70px;
+    width: 120px;
+    transition: .4s;
+}
+
+.client-item img:hover{
+    width: 130px;
+    text-align: center;
+}
+
+@media(max-width:1200px){
+    .client-item img{
+        width: 100px;
+    }
+}
+
+@media(max-width:600px){
+
+    .client-item{
+        width: 33.33%;
+    }
+    .client-item img{
+        flex-wrap: wrap;
+    }
+}

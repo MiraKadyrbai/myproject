@@ -1,0 +1,160 @@
+.nav, .nav_left, .nav_right{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    background-color: transparent;
+    padding: 20px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_right a{
+    position: relative;
+}
+
+.nav_right a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f85a40;
+    bottom: -10px;
+    right: 0;
+    transition: .4s;
+}
+
+.nav_right .menu-nav{
+    color: #000;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: .4s;
+    font-family: "Poppins-Regular";
+}
+
+.nav_right .menu-nav::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f85a40;
+    bottom: -10px;
+    right: 10px;
+    transition: .4s;
+}
+
+.nav_right a:hover::after{
+    width: 100%;
+}
+
+.nav_right .menu-nav:hover::after{
+    width: 100%;
+}
+
+.nav i{
+    color: #000;
+}
+
+@font-face {
+    font-family: "Poppins-light";
+    src: url("../../Fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-light";
+    src: url("../../Fonts/Poppins/Poppins-Light.ttf");
+}
+
+.nav_left p{
+    font-family: "Poppins-Regular";
+}
+
+.nav a{
+    color: #000;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: .4s;
+    font-family: "Poppins-Regular";
+}
+
+.nav_left i{
+    margin-right: 20px;
+    transition: .4s;
+}
+
+.nav_left{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #f85a40;
+    font-family: "Poppins-Regular";
+}
+
+.nav_left span{
+    color: #000;
+}
+
+.nav-adaptive{
+    display: none;
+}
+
+.nav_right{
+    position: relative;
+    cursor: pointer;
+}
+
+#burger-menu{
+    position: absolute;
+    top: 100%;
+    background-color: rgba(34, 34, 34);
+    right: 0;
+    left: 0;
+    min-width: 200px;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 2px;
+    z-index: 10;
+    transform: translateY(5%);
+    display: none;
+}
+
+.menu-item p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+} 
+
+#burger-menu::before{
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    top: -5px;
+    bottom: auto;
+    position: absolute;
+    left: 30px;
+}
+
+.menu-item:hover p{
+    color: #f85a40;
+    transition: .4s;
+}
+
+.open-menu{
+    display: block !important;
+}  
+
+@media(max-width:1270px){
+    .nav_right{
+        display: none;
+    }
+
+    .nav-adaptive{
+        display: block;
+    }
+}
+

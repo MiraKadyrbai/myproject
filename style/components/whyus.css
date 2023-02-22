@@ -1,0 +1,107 @@
+.whyus{
+    width: 100%;
+}
+
+.title2{
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.title2 h6{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    color: #333333;
+}
+
+.title2 p{
+    margin-bottom: 0;
+    color: #6f6f6f;
+    font-size: 17px;
+    font-family: 'Poppins-Regular';
+}
+
+.whyus-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev2{
+    width: calc(50% - 40px);
+}
+
+.dev2 img{
+    width: 100%;
+}
+
+.content-why{
+    width: calc(50% - 40px);
+    font-size: 17px;
+}
+
+.content-why p{
+    color: #333333;
+    font-family: 'Poppins-Regular';
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.content-why i{
+    color: #f85a40;
+}
+
+.content-why li{
+    padding: 8px 0;
+    font-family: 'Poppins-Regular';
+    color: #333333;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.counter-why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    color: #f85a40;
+    padding: 30px 50px 0 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dov-why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dov-why h2{
+    color: #333333;
+    padding: 30px 50px 0 50px;
+    font-size: 20px;
+}
+
+@media(max-width:970px){
+    .whyus-item{
+        display: inline;
+    }
+    .dev2{
+        width: 100%;
+    }
+    .content-why{
+        width: 100%;
+    }
+    .content-why p{
+        font-size: 18px;
+    }
+    .content-why li{
+        font-size: 18px;
+    }
+}

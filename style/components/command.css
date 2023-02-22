@@ -1,0 +1,130 @@
+.testimonials{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.command{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.command h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    color: #222;
+}
+
+.command p{
+    margin-bottom: 0;
+    color: #6f6f6f;
+    font-size: 17px;
+    font-family: 'Poppins-Regular';
+}
+
+.command-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 150px;
+    background-color: #fff;
+}
+
+.com-car{
+    width: calc(50% - 30px);
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px 10px 50px 10px;
+    box-shadow: 0px 0 15px rgb(0 0 0 / 10%);
+    transition: .4s;
+}
+
+.com-car{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image img{
+    border-radius: 100%;
+    width: 90px;
+    margin-right: 15px;
+}
+
+.com-car-item h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.com-car-item h3{
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.com-car-item h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.com-car-item h5{
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.stars i{
+    color: #ffc107;
+}
+
+.com-car p{
+    font-style: italic;
+    margin: 15px auto 15px auto;
+    color: #353535;
+    line-height: 1.5;
+}
+
+.quote{
+    padding: 30px 10px;
+    width: calc(100% - 230px);
+}
+
+.quote i{
+    color: #f85a40;
+}
+
+
+@media(max-width:1220px){
+    .com-car{
+        width: 100%;
+    }
+}
+
+@media(max-width:760px){
+    .com-car{
+        display: inline-block;
+    }
+    .quote{
+        width: 100%;
+    }
+    .command-item{
+        padding: 40px 25px;
+    }
+}

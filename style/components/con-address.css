@@ -1,0 +1,213 @@
+.contact-us{
+    width: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.contact-title{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contact-title h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    color: #333333;
+}
+
+.contact-title p{
+    margin-bottom: 0;
+    color: #6f6f6f;
+    font-size: 17px;
+    font-family: 'Poppins-Regular';
+}
+
+.contact-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.black-white{
+    background-color: rgba(34, 34, 34);
+    margin-bottom: 30px;
+    padding: 25px 150px 20px 20px;
+    border-radius: 8px 8px 50px 8px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 5%), 0 5px 15px rgb(0 0 0 / 3%);
+}
+
+.contact-item div{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item h2{
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 56px;
+    font-family: 'Poppins-Regular', sans-serif;
+    text-align: left;
+    color: #fff;
+}
+
+.contact-item p{
+    line-height: 1.3;
+    font-family: 'Poppins-Regular', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.name-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-child1{
+    width: calc(33.33% - 15px);
+}
+
+.contact-child{
+    width: calc(66.66% - 15px);
+}
+
+.contact-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    height: 52px;
+    color: #333;
+    background-color: #f3f3f3;
+    border-radius: 8px 8px 50px 8px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+.name input{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.email{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 52px;
+    color: #333;
+    background-color: #f3f3f3;
+    border-radius: 8px 8px 50px 8px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+.email input{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.subject{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 52px;
+    color: #333;
+    background-color: #f3f3f3;
+    border-radius: 8px 8px 50px 8px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+.subject input{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.message{
+    font-size: 15px;
+    width: 95%;
+    padding: 10px 20px;
+    margin-top: 25px;
+    height: 50%;
+    color: #333;
+    background-color: #f3f3f3;
+    border-radius: 8px 8px 50px 8px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+.message{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    font-weight: bold;
+    resize: none;
+}
+
+.form-control{
+    display: block;
+}
+
+button, input, textarea{
+    font-family: inherit;
+}
+
+.button-message{
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.button-message button{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #f85a40;
+    padding: 14px 45px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+@media(max-width:1100px){
+    .contact-parent{
+        display: block;
+    }
+    .contact-child1{
+        width: 100%;
+    }
+    .contact-child{
+        width: 100%;
+    }
+}
+
+@media(max-width:770px){
+    .contact-parent{
+        padding: 30px 20px;
+    }
+    .name-email{
+        display: block;
+    }
+    .email{
+        margin-bottom: 25px;
+    }
+}
+
